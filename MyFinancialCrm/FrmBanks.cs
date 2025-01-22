@@ -41,5 +41,58 @@ namespace MyFinancialCrm
             lblBankProcess5.Text = bankProcess5.Description + " " + bankProcess5.Amount + " " + bankProcess5.ProcessDate;
         }
 
+        private void btnBanksForm_Click(object sender, EventArgs e)
+        {
+            FrmBanks frm = new FrmBanks();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnBillForm_Click(object sender, EventArgs e)
+        {
+            FrmBilling frm = new FrmBilling();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnDashboardFrom_Click(object sender, EventArgs e)
+        {
+            FrmDashboard frm = new FrmDashboard();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnSettingsFrom_Click(object sender, EventArgs e)
+        {
+            //Frm
+        }
+
+        private void btnExitForm_Click(object sender, EventArgs e)
+        {
+            FrmUsers frm = new FrmUsers();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnSpendingForm_Click(object sender, EventArgs e)
+        {
+            FrmSpendings frm = new FrmSpendings();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnCategoriesForm_Click(object sender, EventArgs e)
+        {
+            FrmCategories frm = new FrmCategories();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnBankTransactionsForm_Click(object sender, EventArgs e)
+        {
+            FrmBankTransactions frm = new FrmBankTransactions();
+            frm.Show();
+            this.Hide();
+        }
     }
 }
