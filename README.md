@@ -1,4 +1,4 @@
-********************My Financial Crm********************
+****************** **My Financial Crm** ******************
 
 Bu repo Murat Yücedağ'ın eğitmenliğinde gerçekleştirilen C# Eğitim Kampı sonunda bitirme projem olarak tamamladığım Financial Crm projemdir.
 Bu projede baştan sona bir uygulamanın nasıl yapıldığını, nelere dikkat edilmesi gerektiğini öğrendim.
